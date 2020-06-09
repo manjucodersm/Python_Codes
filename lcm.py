@@ -5,6 +5,7 @@ def lcm(number1, number2):
     '''Finding LCM of two numbers
     Input : num1 and num2
     Output: Print LCM of two numbers'''
+    print lcm.__doc__
 
     num1 = number1
     num2 = number2

@@ -5,6 +5,7 @@ def gcd(num1, num2):
     '''Finds the GCD of two numbers
     Input : num1 and num2
     Output: Print GCD of two numbers'''
+    print gcd.__doc__
 
     if num1 > num2:
         num1, num2 = num2, num1
