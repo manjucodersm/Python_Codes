@@ -4,10 +4,14 @@
 def primeNumber(number):
     '''Checking number is prime or not
     Input : Any number
-    Output: True/False'''
+    Output: Print number is prime or not'''
     print primeNumber.__doc__
-    
-    for num in range(2, number//2):
+
+    if number == 1 or (number != 2 and number%2 == 0):
+        print "\n%d is not a prime number" % number
+        return
+
+    for num in range(3, (number//2)+1, 2):
         if not number%num:
             print "\n%d is not a prime number" % number
             break
