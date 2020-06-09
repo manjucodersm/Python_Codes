@@ -1,4 +1,4 @@
-'''This file checks whether a number is prime or not'''
+'''This Program checks whether a number is prime or not'''
 
 
 def primeNumber(number):
